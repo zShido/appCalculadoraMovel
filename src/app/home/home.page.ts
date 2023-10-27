@@ -58,6 +58,13 @@ export class HomePage {
         break;
       }
     }
+    this.valor1=0;
+    this.valor2=0;
+    this.operacao=0
+  }
+
+  trocaSinal(){
+    this.visor = "" + (Number(this.visor) * -1)
   }
 
   zerar(){
